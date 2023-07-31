@@ -82,7 +82,14 @@
                                               </button>
                                             </div>
                                             <div class="modal-body">
-                                              <p>Modal body text goes here.</p>
+                                              <ul class="list-unstyled">
+                                                <li>Student Number: <strong>{{ student.student_number }}</strong></li>
+                                                <li>First Name: <strong>{{ student.first_name }}</strong></li>
+                                                <li>Last Name: <strong>{{ student.last_name }}</strong></li>
+                                                <li>Email: <strong>{{ student.email }}</strong></li>
+                                                <li>Field of Study: <strong>{{ student.field_of_study }}</strong></li>
+                                                <li>GPA: <strong>{{ student.gpa }}</strong></li>
+                                              </ul>
                                             </div>
                                             <div class="modal-footer">
                                               <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
